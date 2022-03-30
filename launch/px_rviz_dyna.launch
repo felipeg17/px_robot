@@ -1,0 +1,22 @@
+<launch>
+  <!-- Argumentos -->
+  <arg name="model" default="$(find px_robot)/urdf/px_transmission.urdf"/>
+  <arg name="gui" default="false" />
+  <arg name="rvizconfig" default="$(find px_robot)/config/config.rviz" />
+  
+  <!-- Carga el robot -->
+  <param name="robot_description" command="$(find xacro)/xacro $(arg model)"/>
+
+  <!-- Carga el servidor de parametros para publicar el estado del rebot -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" >
+    <remap from="joint_states" to="dynamixel_workbench/joint_states"/>
+  </node>
+  
+  <!-- Carga el manejador de juntas -->
+  <node if="$(arg gui)" name="joint_state_publisher" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" />
+
+  <!-- Carga Rvix con config -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)" required="true" />
+  <!-- <node name="rviz" pkg="rviz" type="rviz" /> -->
+
+</launch>
