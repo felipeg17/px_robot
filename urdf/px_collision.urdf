@@ -7,7 +7,7 @@
     <visual name="">
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://px_test/meshes/Base.STL" scale="1 1 1"/>
+        <mesh filename="package://px_robot/meshes/Base.STL" scale="1 1 1"/>
       </geometry>
       <material name="dark gray">
         <color rgba="0.1 0.1 0.1 1.0"/>
@@ -16,7 +16,7 @@
     <collision>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://px_test/meshes/Base.STL" scale="1 1 1"/>
+        <mesh filename="package://px_robot/meshes/Base.STL" scale="1 1 1"/>
       </geometry>
       <material name="red">
         <color rgba="1 0 0 1.0"/>
@@ -39,7 +39,7 @@
     <visual name="">
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://px_test/meshes/Shoulder.STL" scale="1 1 1"/>
+        <mesh filename="package://px_robot/meshes/Shoulder.STL" scale="1 1 1"/>
       </geometry>
       <material name="dark gray">
         <color rgba="0.1 0.1 0.1 1.0"/>
@@ -48,7 +48,7 @@
     <collision>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://px_test/meshes/Shoulder.STL" scale="1 1 1"/>
+        <mesh filename="package://px_robot/meshes/Shoulder.STL" scale="1 1 1"/>
       </geometry>
     </collision>
     <!-- <inertial>
@@ -70,7 +70,7 @@
     <visual name="">
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://px_test/meshes/Bicep.STL" scale="1 1 1"/>
+        <mesh filename="package://px_robot/meshes/Bicep.STL" scale="1 1 1"/>
       </geometry>
       <material name="dark gray">
         <color rgba="0.1 0.1 0.1 1.0"/>
@@ -79,7 +79,7 @@
     <collision>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://px_test/meshes/Bicep.STL" scale="1 1 1"/>
+        <mesh filename="package://px_robot/meshes/Bicep.STL" scale="1 1 1"/>
       </geometry>
     </collision>
     <!-- <inertial>
@@ -101,7 +101,7 @@
     <visual name="">
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://px_test/meshes/Bicep.STL" scale="1 1 1"/>
+        <mesh filename="package://px_robot/meshes/Bicep.STL" scale="1 1 1"/>
       </geometry>
       <material name="dark gray">
         <color rgba="0.1 0.1 0.1 1.0"/>
@@ -110,7 +110,7 @@
     <collision>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://px_test/meshes/Bicep.STL" scale="1 1 1"/>
+        <mesh filename="package://px_robot/meshes/Bicep.STL" scale="1 1 1"/>
       </geometry>
     </collision>
     <!-- <inertial>
@@ -132,7 +132,7 @@
     <visual name="">
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://px_test/meshes/Wrist.STL" scale="1 1 1"/>
+        <mesh filename="package://px_robot/meshes/Wrist.STL" scale="1 1 1"/>
       </geometry>
       <material name="dark gray">
         <color rgba="0.1 0.1 0.1 1.0"/>
@@ -141,7 +141,7 @@
     <collision>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://px_test/meshes/Wrist.STL" scale="1 1 1"/>
+        <mesh filename="package://px_robot/meshes/Wrist.STL" scale="1 1 1"/>
       </geometry>
     </collision>
     <!-- <inertial>

@@ -1,6 +1,6 @@
 <launch>
   <!-- Argumentos -->
-  <arg name="model" default="$(find px_robot)/urdf/px_transmission.urdf"/>
+  <arg name="model" default="$(find px_robot)/urdf/px_collision.urdf"/>
   <arg name="gui" default="false" />
   <arg name="rvizconfig" default="$(find px_robot)/config/config.rviz" />
   
